@@ -241,4 +241,37 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5.5rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.skills {
+  padding: 11rem 0;
+}
+
+.skills__title,
+.skills__descr {
+  text-align: center;
+}
+
+.skills__descr {
+  margin-bottom: 9rem;
+}
+
+.skills__title {
+  margin-bottom: 7rem;
+}
+
+.skills__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.skills__img > img {
+  width: 100%;
+}
+
+/* 
+.skills__container {
+}
+ *//*# sourceMappingURL=style.css.map */
