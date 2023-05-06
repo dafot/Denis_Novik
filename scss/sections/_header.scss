@@ -1,0 +1,41 @@
+.header {
+    padding-bottom: 10.4rem;
+}
+.header__container {
+}
+.header__nav {
+    padding: 5.2rem 0;
+}
+.nav {
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__item {
+}
+.nav__link {
+    &:link,
+    &:visited {
+        color: $prymary-color;
+    }
+    &:hover {
+        color: $accent-color;
+    }
+}
+.header__body {
+}
+.header__title {
+}
+.title {
+}
+.header__descr {
+}
+.header__languages {
+}
+.header__lang {
+}
+.lang-line {
+}
+.header__img {
+}

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* =====MIXINS===== */
+/*=====connect the fonts=====*/
+/* =====BASE===== */
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+/* =====VARIABLES===== */
+/* =====VARIABLES===== */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Gilroy";
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.page {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 100vh auto 1fr;
+}
+
+.container {
+  max-width: 973px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* 
+@include font($font-family, $font, $font-weight, $font-style)
+*/
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff2"), url("../fonts/Gilroy-Bold.woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff2"), url("../fonts/Gilroy-Medium.woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+/* =====UTILITIES===== */
+/* ======SECTIONS====== */
+.header {
+  padding-bottom: 10.4rem;
+}
+
+.header__nav {
+  padding: 5.2rem 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link:link, .nav__link:visited {
+  color: #828282;
+}
+.nav__link:hover {
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
