@@ -90,7 +90,7 @@ body {
 .page {
   min-height: 100%;
   display: grid;
-  grid-template-rows: 100vh auto 1fr;
+  grid-template-rows: 1fr auto min-content;
 }
 
 .container {
@@ -99,6 +99,7 @@ body {
   margin: 0 auto;
 }
 
+/* =====FONTS===== */
 /* 
 @include font($font-family, $font, $font-weight, $font-style)
 */
@@ -115,7 +116,13 @@ body {
   font-weight: 500;
   font-display: swap;
   font-style: normal;
+} /* =====COMPONENTS===== */
+.section__title {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 3.4rem;
 }
+
 /* =====UTILITIES===== */
 /* ======SECTIONS====== */
 .header {
@@ -211,4 +218,27 @@ body {
 .header__img > img {
   width: 100%;
   height: auto;
+}
+
+.about {
+  padding: 12rem 0 10.7rem;
+  background-color: #F6F6F6;
+}
+
+.about__title,
+.about__descr-txt {
+  text-align: center;
+  max-width: 48rem;
+  margin: 0 auto;
+  line-height: 2.5rem;
+}
+
+.about__title {
+  margin-bottom: 1.8rem;
+}
+
+.about__descr-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5.5rem;
 }/*# sourceMappingURL=style.css.map */
