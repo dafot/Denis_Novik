@@ -1,26 +1,39 @@
 .portfolio {
+    padding: 11.2rem 0;
+    background-color: $section-color;
 }
 .portfolio__container {
 }
-.container {
-}
-.section__title {
-}
 .portfolio__title {
+    text-align: center;
+    margin-bottom: 4.7rem;
 }
 .portfolio__works {
 }
 .works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .works__item {
+    margin-bottom: 9.9rem;
+
 }
 .works__work {
 }
 .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .work__preview {
+    width: 100%;
+    margin-bottom: 4.5rem;
 }
 .work__link {
-}
-.works__woimg/portfolio/work2.pngrk {
+    &:link,
+    &:visited {
+        color: $accent-color;
+    }
+    text-decoration: underline;
 }

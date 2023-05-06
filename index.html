@@ -13,18 +13,20 @@
         <div class="header__container container">
           <nav class="header__nav nav">
             <ul class="nav__list">
-              <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
               <li class="nav__item">
-                <a href="#" class="nav__link">About me</a>
+                <a href="#" class="nav__link">Home</a>
+            </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About me</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Skills</a>
+                <a href="#skills" class="nav__link">Skills</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Portfolio</a>
+                <a href="#portfolio" class="nav__link">Portfolio</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Contacts</a>
+                <a href="#footer" class="nav__link">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -49,7 +51,7 @@
         </div>
       </header>
       <main class="main">
-        <section class="about">
+        <section class="about" id="about">
           <div class="about__container container">
             <h2 class="about__title section__title">About me</h2>
             <ul class="about__descr-list">
@@ -74,7 +76,7 @@
           </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="skills__container container">
                 <h2 class="section__title skills__title">Skills</h2>
                 <p class="skills__descr">I work in such programs as</p>
@@ -87,7 +89,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="portfolio__container container">
                 <h2 class="section__title portfolio__title">Portfolio</h2>
                 <ul class="portfolio__works works">
@@ -98,8 +100,8 @@
                         </article>
                     </li>
                     <li class="works__item">
-                        <article class="works__woimg/portfolio/work2.pngrk work">
-                            <a href=""><img src="" alt="" class="work__preview">
+                        <article class="works__work work">
+                            <a href=""><img src="img/portfolio/work2.png" alt="" class="work__preview">
                             <a href="" class="work__link">Reebok Store - Concept</a></a>
                         </article>
                     </li>
@@ -112,7 +114,26 @@
                 </ul>
         </section>
       </main>
-      <footer class="footer">footer</footer>
+      <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <h2 class="footer__title section__title">Contacts</h2>
+            <p class="footer__descr">Want to know more or just chat? <br> You are welcome!</p>
+            <a href="#" class="footer__btn">Send message</a>
+            <ul class="footer__social">
+                <a href="#" class="social__icon"><img src="img/footer/1.svg" alt=""></a>
+                <a href="#" class="social__icon"><img src="img/footer/2.svg" alt=""></a>
+                <a href="#" class="social__icon"><img src="img/footer/3.svg" alt=""></a>
+                <a href="#" class="social__icon"><img src="img/footer/4.svg" alt=""></a>
+            </ul>
+            <p class="footer__like">Like me on</p>
+            <ul class="footer__social-links">
+                <a href="#" class="footer__social-link">Linkedin</a>
+                <a href="#" class="footer__social-link">Instagram</a>
+                <a href="#" class="footer__social-link">Behance</a>
+                <a href="#" class="footer__social-link">Dribble</a>
+            </ul>
+        </div>
+      </footer>
     </div>
     <script src="js/script.js"></script>
   </body>
